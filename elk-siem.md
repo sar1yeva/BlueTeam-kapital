@@ -381,7 +381,8 @@ The token allows the Kibana instance to securely enroll with Elasticsearch.
 
 <img width="667" height="50" alt="image" src="https://github.com/user-attachments/assets/fbfc2402-3c67-45b1-a294-bef07ade8f82" />
 
-<img width="667" height="373" alt="image" src="https://github.com/user-attachments/assets/f6ca0ad4-6ebe-48a0-9279-e96688d8d38f" />
+<img width="900" height="592" alt="image" src="https://github.com/user-attachments/assets/7b270ebb-c2a3-4057-ad37-69201032ce2a" />
+
 
 
 ---
@@ -400,7 +401,8 @@ The terminal returned a six-digit verification code.
 
 I entered this code into the Kibana browser interface to continue the setup process.
 
-<img width="667" height="384" alt="image" src="https://github.com/user-attachments/assets/3b697ff7-d28c-4570-b8be-eb16bed9892b" />
+<img width="900" height="572" alt="image" src="https://github.com/user-attachments/assets/5492a5e1-e63d-4a09-b660-93730cea2e52" />
+
 
 <img width="626" height="82" alt="image" src="https://github.com/user-attachments/assets/5522085b-ac45-462a-9535-c97c53e77a85" />
 
@@ -431,9 +433,10 @@ This confirmed that Kibana was successfully connected to the Elastic environment
 
 At this stage, the Elasticsearch and Kibana components were operational.
 
-<img width="667" height="388" alt="image" src="https://github.com/user-attachments/assets/1e04d840-54d3-496a-9e34-f7003b06feb9" />
+<img width="900" height="583" alt="image" src="https://github.com/user-attachments/assets/be173ab7-01d1-4712-8c4d-8832822323b7" />
 
-<img width="667" height="367" alt="image" src="https://github.com/user-attachments/assets/0f4535c8-002d-4d3c-b712-27733b235920" />
+<img width="900" height="572" alt="image" src="https://github.com/user-attachments/assets/6f5bbbdc-09ba-4e5a-8c31-47284c2fc2f0" />
+
 
 
 ---
@@ -666,7 +669,7 @@ Kibana provides two particularly useful areas for log analysis:
 
 At this point, the raw Ubuntu logs were available for analysis through Kibana.
 
-<img width="667" height="377" alt="image" src="https://github.com/user-attachments/assets/4ec0a8d6-fafd-4b0c-ba5f-b95519ac980e" />
+<img width="900" height="587" alt="image" src="https://github.com/user-attachments/assets/6c6bb44e-07ad-4ed2-b67d-680d0936e297" />
 
 
 ---
@@ -679,7 +682,8 @@ Elastic Security provides functionality for security monitoring, detection, dash
 
 Although this project primarily focused on establishing the ELK pipeline, this section demonstrates how the same Elastic environment can later be extended into a broader security monitoring and SIEM-style environment.
 
-<img width="667" height="382" alt="image" src="https://github.com/user-attachments/assets/8df3c232-cf5b-4b61-bb8a-e9c13b3e7cc2" />
+<img width="1026" height="657" alt="image" src="https://github.com/user-attachments/assets/842efc4b-7c76-4437-ae94-8494a27c40d3" />
+
 
 
 ---
@@ -722,7 +726,8 @@ as the timestamp field.
 
 This allows Kibana to organize and filter events according to their event time.
 
-<img width="667" height="371" alt="image" src="https://github.com/user-attachments/assets/c51d9622-80d3-4ae8-85ac-62cbd1c0063e" />
+<img width="900" height="580" alt="image" src="https://github.com/user-attachments/assets/74f031a0-2c34-4890-833a-e19c2be564c0" />
+
 
 
 ---
@@ -741,7 +746,8 @@ I then saved the Data View to Kibana.
 
 This made the Ubuntu logs available for exploration through Kibana Discover.
 
-<img width="667" height="344" alt="image" src="https://github.com/user-attachments/assets/9b3e6e18-b20e-4c8e-8ad0-e22b84a59a7f" />
+<img width="900" height="558" alt="image" src="https://github.com/user-attachments/assets/5e358239-926a-4ad0-a9ac-8ec83662e843" />
+
 
 
 ---
@@ -771,7 +777,8 @@ The Discover interface also displayed the number of matching documents and provi
 
 This demonstrates that the logs successfully traveled through the complete pipeline and became searchable in Kibana.
 
-<img width="667" height="328" alt="image" src="https://github.com/user-attachments/assets/f08a4401-cb34-4cc3-af7c-f46deaf54efc" />
+<img width="1038" height="677" alt="image" src="https://github.com/user-attachments/assets/f07797e9-50b3-495a-b0d0-855bc65c1f37" />
+
 
 
 ---
@@ -788,7 +795,8 @@ This demonstrates the final stage of the pipeline:
 
 **Log Collection → Processing → Indexing → Search → Visualization**
 
-<img width="667" height="353" alt="image" src="https://github.com/user-attachments/assets/fa0d2710-f08c-453c-8835-ab83bbf54cb6" />
+<img width="900" height="566" alt="image" src="https://github.com/user-attachments/assets/981eb290-970c-42c7-8357-c4f1d355167c" />
+
 
 
 ---
